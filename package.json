@@ -10,6 +10,11 @@
     "react-dom": "^16.14.0"
   },
   "devDependencies": {
+    "@prettier/plugin-ruby": "^0.20.1",
+    "prettier": "^2.1.2",
     "webpack-dev-server": "^3.11.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }

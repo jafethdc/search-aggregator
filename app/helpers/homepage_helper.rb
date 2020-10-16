@@ -1,2 +1,1 @@
-module HomepageHelper
-end
+module HomepageHelper; end
