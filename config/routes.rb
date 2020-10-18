@@ -1,1 +1,4 @@
-Rails.application.routes.draw { root 'homepage#index' }
+Rails.application.routes.draw do
+  root 'homepage#index'
+  get '/search' => 'homepage#search'
+end
