@@ -20,11 +20,11 @@ module Google
         link = header.css('a').first
         title = link.css('h3 span').first
         description = body.css('span').first
-        OpenStruct.new(
+        {
           url: link.attributes['href'].value,
           title: title.text,
           description: description.text
-        )
+        }
       end
     end
 

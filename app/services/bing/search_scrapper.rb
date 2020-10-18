@@ -18,11 +18,11 @@ module Bing
         header, body = result.children
         link = header.css('a').first
         description = body.css('p').first
-        OpenStruct.new(
+        {
           url: link.attributes['href'].value,
           title: link.text,
           description: description.text
-        )
+        }
       end
     end
 
