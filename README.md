@@ -1,24 +1,17 @@
-# README
+# Search Aggregator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+    $ bundle install
 
-- Ruby version
+    $ yarn install
 
-- System dependencies
+    $ bundle exec rails s
 
-- Configuration
+    $ bin/webpack-dev-server
 
-- Database creation
+## Tests
 
-- Database initialization
+    $ yarn test
 
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+    $ bundle exec rspec
