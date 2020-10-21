@@ -13,16 +13,20 @@
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-select": "^3.1.0",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
     "@prettier/plugin-ruby": "^0.20.1",
+    "@testing-library/dom": "^7.26.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.8",
     "babel-jest": "^26.5.2",
     "jest": "^26.5.3",
     "prettier": "^2.1.2",
+    "react-select-event": "^5.1.0",
     "react-test-renderer": "^16.14.0",
     "webpack-dev-server": "^3.11.0"
   },
